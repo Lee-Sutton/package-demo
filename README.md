@@ -134,7 +134,12 @@ python [filename].py
 - I've created an example application if you want to check it out here: 
 
 ## Pep8, flake8, and pylint
-- official style guide for python code (please follow it)
+- Pep8 is the official style guide for python code (please follow it)
+- flake8 is a style guide enforcer http://flake8.pycqa.org/en/latest/
+- pylint is a code analyzer for python https://www.pylint.org/
+    - It's more opiniated than flake8
+    - It analyzes your code for errors and best practices
+    - It can be a little more difficult to configure than flake8
 
 ## Pytest
 - Pytest is a unit test runner
