@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+REQUIRES	setup.py	/^REQUIRES = []$/;"	v
+another_function	package_demo/cli.py	/^def another_function():$/;"	f
+author	setup.py	/^    author='Lee Sutton',$/;"	v
+author_email	setup.py	/^    author_email='leesutton1@gmail.com',$/;"	v
+classifiers	setup.py	/^    classifiers=[$/;"	v
+description	setup.py	/^    description='',$/;"	v
+find_packages	setup.py	/^from setuptools import find_packages, setup$/;"	i
+install_requires	setup.py	/^    install_requires=REQUIRES,$/;"	v
+keywords	setup.py	/^    keywords=[$/;"	v
+license	setup.py	/^    license='MIT\/Apache-2.0',$/;"	v
+maintainer	setup.py	/^    maintainer='Lee Sutton',$/;"	v
+maintainer_email	setup.py	/^    maintainer_email='leesutton1@gmail.com',$/;"	v
+name	setup.py	/^    name='package_demo',$/;"	v
+open	setup.py	/^from io import open$/;"	i
+packages	setup.py	/^    packages=find_packages(),$/;"	v
+setup	setup.py	/^from setuptools import find_packages, setup$/;"	i
+test_add	package_demo/test_cli.py	/^def test_add():$/;"	f
+test_failing	package_demo/test_cli.py	/^def test_failing():$/;"	f
+test_function	package_demo/prototyping.py	/^def test_function():$/;"	f
+tests_require	setup.py	/^    tests_require=['coverage', 'pytest'],$/;"	v
+url	setup.py	/^    url='https:\/\/github.com\/lee-sutton\/package_demo',$/;"	v
+version	setup.py	/^    version='0.0.1',$/;"	v
+x	package_demo/prototyping.py	/^x = 6$/;"	v
